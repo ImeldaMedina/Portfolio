@@ -1,0 +1,77 @@
+body{
+    background-image: url("../images/keyboard.jpeg");
+    background-size: cover;
+}
+#container {
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.description{
+
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.container h1{
+    color:#F97300 ;
+    /*color: white;*/
+    text-align: center;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description p{
+    color:#666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+.description button{
+    border:1px  solid #F97300;
+    background:#F97300;
+    color:#fff;
+}
+.display-4{
+    color: white;
+    text-align: center;
+}
+.jumbotron {
+    background-image: url("../images/gray.jpg");
+    background-size: cover;
+    height: 350px;
+}
+
+
+.navbar{
+    background:#F97300;
+}
+
+.nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    background:#fff !important;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}

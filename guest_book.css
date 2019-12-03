@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+}
+.center{
+    color: black;
+}
+.container{
+   text-align: center;
+
+}
+.display-4{
+    color: white;
+}
+label {
+    margin-bottom: 8px;
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+
+}
+input[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+
+}
+.jumbotron {
+    background-image: url("../images/gray.jpg");
+    background-size: cover;
+    height: 250px;
+    color: #262626 !important;
+}
+
+.navbar{
+    background:#F97300;
+}
+
+.nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    background:#fff !important;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
